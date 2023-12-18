@@ -14,11 +14,13 @@ body {
     display: flex;
     justify-content: center; /* Center the child elements horizontally */
     margin: 0 auto; /* Center the container horizontally */
+    text-align: center;
 }
 
 .responsive-image {
     width: 100%;
     max-width: 800px; /* Set the maximum width for the image */
     height: auto;
+    display: block;
     margin: 0 auto; /* Center the image horizontally */
 }
