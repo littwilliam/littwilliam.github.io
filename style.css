@@ -15,6 +15,8 @@ body {
 }
 
 .responsive-image {
-    max-width: 60%; /* Set the maximum width for the image */
+    width: 100%;
+    max-width: 800px; /* Set the maximum width for the image */
     height: auto;
+    margin: 0 auto; /* Center the image horizontally */
 }
