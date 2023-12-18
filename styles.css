@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Belleza';
     src: url('fonts/belleza.ttf') format('ttf');
-    /* Add more font formats (e.g., woff2, ttf) for better browser compatibility */
 }
 
 body {
@@ -13,7 +12,6 @@ body {
     height: 100vh;
     background-color: #ffffff;
     font-family: 'Belleza', sans-serif;
-    /* Add other styles for the body as needed */
 }
 
 .container {
@@ -33,17 +31,18 @@ body {
     max-width: 800px;
     width: 100%;
     text-align: center;
-    padding: 10px; /* Adjust padding as needed */
+    padding: 10px 20px; /* Adjust padding as needed, 10px top and bottom, 20px left and right */
+    margin-top: -10px; /* Adjust the negative margin to bring the text closer to the image */
 }
 
 .centered-text {
-    font-size: 20px; /* Adjust font size as needed */
+    font-size: 20px;
     line-height: 1.6;
-    color: #333; /* Adjust text color as needed */
+    color: #333;
 }
 
 @media (max-width: 600px) {
     .centered-text {
-        font-size: 16px; /* Adjust font size for smaller screens */
+        font-size: 16px;
     }
 }
