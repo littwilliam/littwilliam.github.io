@@ -9,12 +9,12 @@ body {
 }
 
 .container {
-    max-width: 60%; /* Set the maximum width for the container */
+    max-width: 80%; /* Set the maximum width for the container */
     text-align: center;
     margin: 0 auto; /* Center the container horizontally */
 }
 
 .responsive-image {
-    max-width: 100%; /* Set the maximum width for the image */
+    max-width: 60%; /* Set the maximum width for the image */
     height: auto;
 }
