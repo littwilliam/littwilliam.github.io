@@ -14,6 +14,6 @@ body {
 }
 
 .responsive-image {
-    max-width: 100%;
+    max-width: 100%; /* Set a maximum width for the image */
     height: auto;
 }
