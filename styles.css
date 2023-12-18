@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Belleza';
+    src: url('fonts/belleza.ttf') format('ttf');
+    /* Add more font formats (e.g., woff2, ttf) for better browser compatibility */
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +11,9 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
+    font-family: 'Belleza', sans-serif;
+    /* Add other styles for the body as needed */
 }
 
 .container {
