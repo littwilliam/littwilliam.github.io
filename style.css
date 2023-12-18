@@ -9,18 +9,13 @@ body {
 }
 
 .container {
-    max-width: 800px; /* Set the maximum width for the container */
-    width: 100%; /* Make sure the container takes full width */
-    display: flex;
-    justify-content: center; /* Center the child elements horizontally */
-    margin: 0 auto; /* Center the container horizontally */
+    max-width: 800px;
+    width: 100%;
     text-align: center;
 }
 
 .responsive-image {
-    width: 100%;
-    max-width: 800px; /* Set the maximum width for the image */
+    max-width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto;
 }
