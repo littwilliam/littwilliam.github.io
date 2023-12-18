@@ -11,11 +11,11 @@ body {
 .container {
     max-width: 800px;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .responsive-image {
     max-width: 100%;
     height: auto;
+    display: inline-block; /* Set image to inline-block to center using text-align */
 }
