@@ -9,8 +9,10 @@ body {
 }
 
 .container {
-    max-width: 80%; /* Set the maximum width for the container */
-    text-align: center;
+    max-width: 800px; /* Set the maximum width for the container */
+    width: 100%; /* Make sure the container takes full width */
+    display: flex;
+    justify-content: center; /* Center the child elements horizontally */
     margin: 0 auto; /* Center the container horizontally */
 }
 
